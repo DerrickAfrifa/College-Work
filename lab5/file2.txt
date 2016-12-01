@@ -1,0 +1,2 @@
+Hello this is the second file and now Im just writing random text just 
+to test the program.
