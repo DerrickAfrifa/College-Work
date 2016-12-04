@@ -85,7 +85,7 @@ char* bitset_toString(Bitset* this){
     int set=0;
 
     for(int i=0; i<ASCII_SIZE; i++){
-        if(bitset_lookup(this, i) == 1) s[set++] = i;
+        if(bitset_lookup(this, i)) s[set++] = i;
     }
 
     s[set] = '\0';
